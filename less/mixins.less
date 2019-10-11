@@ -1,14 +1,18 @@
 // Mixins Here
 
-.buttonLayout( @btnFont, @btnRadius){
+.button-style(){
     font-size: 1.5rem;
     border-radius: 4px;
     background-color: black;
     color: white;
     padding: 5px;
     width: 25%;
-    text-align: center;
-  }
+
+    &:hover {
+        color: black;
+        background-color: white;
+      }
+}
 
   .anchorStyle{
     text-decoration: none;
