@@ -1,1 +1,29 @@
 // Mixins Here
+
+.button-style(@btnRadius){
+    font-size: 1.5rem;
+    border-radius: @btnRadius;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 25%;
+
+    &:hover {
+        color: black;
+        background-color: white;
+      }
+}
+
+  .anchorStyle{
+    text-decoration: @textDec;
+    font-size: 1.5rem;
+    color: black;
+    padding: 2em;
+  }
+
+    .navStyle{
+        display: flex;
+      justify-content: space-evenly;
+      max-width: 100%;
+    }
+  
