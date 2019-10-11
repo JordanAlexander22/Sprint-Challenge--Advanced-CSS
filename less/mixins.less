@@ -1,8 +1,8 @@
 // Mixins Here
 
-.button-style(){
+.button-style(@btnRadius){
     font-size: 1.5rem;
-    border-radius: 4px;
+    border-radius: @btnRadius;
     background-color: black;
     color: white;
     padding: 5px;
@@ -15,7 +15,7 @@
 }
 
   .anchorStyle{
-    text-decoration: none;
+    text-decoration: @textDec;
     font-size: 1.5rem;
     color: black;
     padding: 2em;
