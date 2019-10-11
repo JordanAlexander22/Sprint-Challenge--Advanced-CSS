@@ -1,17 +1,13 @@
-.buttonLayout {
-  font-size: 1.5rem;
-  border-radius: 4px;
-  background-color: black;
-  color: white;
-  padding: 5px;
-  width: 25%;
-  text-align: center;
-}
 .anchorStyle {
   text-decoration: none;
   font-size: 1.5rem;
   color: black;
   padding: 2em;
+}
+.navStyle {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
